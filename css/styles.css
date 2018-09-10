@@ -1,0 +1,62 @@
+html, body {
+    margin: none;
+    padding: none;
+}
+body {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    background-image:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../images/road-sky-clouds-cloudy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.para_container {
+    width: 55%;     
+    font-size: 17px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 5%;
+    background-color:rgba(0,0,0,.4);
+    padding: 15px 40px 15px 40px;
+    border: 2px solid rgba(255,255,255,.3);
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px black;
+    
+}
+.about_title {
+    color: rgba(255, 255, 255, .8);
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-shadow: 2px 2px #000000;
+}
+.underline {
+    width: 25%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .4), rgba(255, 255, 255, .8), rgba(255, 255, 255, .4));
+}
+.para_1, .para_2, .para_3 {
+    text-indent: 30px;
+    padding: 5px;
+    line-height: 1.5em;
+    word-spacing: 3px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 8%;
+    padding-right: 8px;
+    padding-top: 2%;
+    border-top: 3px solid rgba(255, 255, 255, .2)
+}
